@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "SSST - Android Device (23076RN4BI)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "ade5f8c2b758",
+      "args": [
+        "--dart-define=API_BASE_URL=http://10.160.251.167:5000/api"
+      ]
+    },
+    {
+      "name": "SSST - Android Emulator (Pixel 6)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "Pixel_6_API_36",
+      "args": [
+        "--dart-define=API_BASE_URL=http://10.0.2.2:5000/api"
+      ]
+    },
+    {
+      "name": "SSST - Chrome (Web)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "args": [
+        "--dart-define=API_BASE_URL=http://127.0.0.1:5000/api"
+      ]
+    }
+  ]
+}
